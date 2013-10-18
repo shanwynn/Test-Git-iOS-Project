@@ -21,6 +21,7 @@
 		C65C779A1810B21D00290B1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65C777C1810B21D00290B1F /* UIKit.framework */; };
 		C65C77A21810B21D00290B1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C65C77A01810B21D00290B1F /* InfoPlist.strings */; };
 		C65C77A41810B21D00290B1F /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65C77A31810B21D00290B1F /* Git_TestTests.m */; };
+		C65C77AF1810B4B000290B1F /* SWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C65C77AE1810B4B000290B1F /* SWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C65C779F1810B21D00290B1F /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		C65C77A11810B21D00290B1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C65C77A31810B21D00290B1F /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		C65C77AD1810B4B000290B1F /* SWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTest.h; sourceTree = "<group>"; };
+		C65C77AE1810B4B000290B1F /* SWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		C65C776C1810B21D00290B1F = {
 			isa = PBXGroup;
 			children = (
+				C65C77AD1810B4B000290B1F /* SWTest.h */,
+				C65C77AE1810B4B000290B1F /* SWTest.m */,
 				C65C777E1810B21D00290B1F /* Git Test */,
 				C65C779D1810B21D00290B1F /* Git TestTests */,
 				C65C77771810B21D00290B1F /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C65C778F1810B21D00290B1F /* SWViewController.m in Sources */,
+				C65C77AF1810B4B000290B1F /* SWTest.m in Sources */,
 				C65C77891810B21D00290B1F /* SWAppDelegate.m in Sources */,
 				C65C77851810B21D00290B1F /* main.m in Sources */,
 			);
